@@ -1,0 +1,198 @@
+.products-filter-options-div {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .left-div-of-products-filter-options-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    .all-brands-div {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      padding: 4px;
+      border-radius: 5px;
+      &:hover {
+        background-color: silver;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .brand-icon-span {
+        font-size: 16px;
+      }
+      .icon2-span {
+        font-size: 16px;
+      }
+      .name-span {
+        font-weight: bold;
+        font-size: 14px;
+
+        word-break: normal;
+        white-space: nowrap;
+      }
+    }
+    .desk-div {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      padding: 4px;
+      border-radius: 5px;
+      &:hover {
+        background-color: silver;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .icon2-span {
+        font-size: 16px;
+      }
+      .name-span {
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+    .tags-div {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      padding: 4px;
+      border-radius: 5px;
+      &:hover {
+        background-color: silver;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .icon2-span {
+        font-size: 16px;
+      }
+      .name-span {
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+    .sort-div {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      padding: 4px;
+      border-radius: 5px;
+      &:hover {
+        background-color: silver;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .sort-icon-span {
+        font-size: 16px;
+      }
+      .name-span {
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+    .filter-div {
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      padding: 4px;
+      border-radius: 5px;
+      &:hover {
+        background-color: silver;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .filter-icon-span {
+        font-size: 12px;
+      }
+      .name-span {
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+  }
+  .right-div-of-products-filter-options-div {
+    gap: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .meeting-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      padding: 4px;
+      gap: 5px;
+      border-radius: 5px;
+      &:hover {
+        background-color: silver;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .meeting-icon-span {
+        font-size: 16px;
+      }
+
+      .name-span {
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+    .imp-exp-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      padding: 4px;
+      gap: 5px;
+      border-radius: 5px;
+      &:hover {
+        background-color: silver;
+      }
+      .imp-exp-icon-span {
+        font-size: 16px;
+      }
+      .name-span {
+        font-size: 14px;
+        font-weight: bold;
+      }
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}

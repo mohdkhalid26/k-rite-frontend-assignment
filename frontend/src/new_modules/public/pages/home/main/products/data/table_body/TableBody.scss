@@ -1,0 +1,150 @@
+tbody {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 16px;
+  tr {
+    width: 100%;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Wix-td-1 {
+      img {
+        width: 25px;
+      }
+    }
+    .Waze-td-1 {
+      img {
+        width: 21px;
+      }
+    }
+    .VK-td-1 {
+      img {
+        width: 21px;
+      }
+    }
+    .Shopify-td-1 {
+      img {
+        width: 21px;
+      }
+    }
+    .PayPal-td-1 {
+      img {
+        width: 16px;
+      }
+    }
+    .MI-td-1 {
+      img {
+        width: 18px;
+      }
+    }
+    .GoLang-td-1 {
+      img {
+        width: 29px;
+      }
+    }
+    .AWS-td-1 {
+      img {
+        width: 32px;
+      }
+    }
+    .Station-td-1 {
+      img {
+        width: 18px;
+      }
+    }
+    .AMD-td-1 {
+      img {
+        width: 21px;
+      }
+    }
+    td {
+      word-break: normal;
+      white-space: nowrap;
+      min-height: 34px;
+      max-height: 34px;
+      background-color: white;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+    .td1 {
+      position: relative;
+      width: 15%;
+      gap: 7px;
+      .name {
+        width: 100%;
+        font-weight: 900;
+        color: darkorange;
+      }
+      .msg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        right: 5%;
+        color: white;
+        background-color: black;
+        padding: 2px;
+        border-radius: 5px;
+      }
+    }
+    .td2 {
+      width: 20%;
+      color: darkblue;
+    }
+    .td3 {
+      width: 16%;
+      gap: 2px;
+      img {
+        width: 29px;
+        height: 29px;
+        border-radius: 50%;
+      }
+    }
+    .td4 {
+      width: 16%;
+      gap: 7px;
+
+      span {
+        border-radius: 5px;
+        background-color: skyblue;
+        padding: 2px;
+      }
+    }
+    .td5 {
+      gap: 7px;
+      width: 13%;
+      span {
+        border-radius: 5px;
+        padding: 2px;
+        background-color: pink;
+      }
+    }
+    .td6 {
+      width: 18%;
+      span {
+        border-radius: 5px;
+        padding: 2px;
+        background-color: lightgreen;
+      }
+    }
+    .td7 {
+      width: 2%;
+    }
+  }
+}

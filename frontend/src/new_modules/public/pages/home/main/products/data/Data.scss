@@ -1,0 +1,184 @@
+.products-data-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  height: 75vh;
+  background-color: whitesmoke;
+  table {
+    background-color: whitesmoke;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    thead {
+      z-index: 1;
+      min-height: 52px;
+      background-color: whitesmoke;
+      padding: 0px 5px;
+      width: 100%;
+      top: 0%;
+      position: sticky;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      tr {
+        width: 100%;
+        display: flex;
+        background-color: whitesmoke;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+        .th1 {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          width: 15%;
+          &:hover {
+            background-color: silver;
+            .label {
+              span {
+                background-color: silver;
+              }
+            }
+          }
+          max-height: 34px;
+          min-height: 34px;
+          background-color: white;
+          .label {
+            position: relative;
+            min-height: 34px;
+            max-height: 34px;
+
+            width: 100%;
+            font-size: 16px;
+            padding: 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            span {
+              font-weight: bold;
+              background-color: white;
+              padding: 5px;
+            }
+          }
+        }
+        th {
+          word-break: normal;
+          white-space: nowrap;
+          max-height: 34px;
+          min-height: 34px;
+          font-size: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 5px;
+          border-radius: 5px;
+          background-color: white;
+          overflow-x: scroll;
+          overflow-y: hidden;
+          &::-webkit-scrollbar {
+            display: none;
+          }
+        }
+        .th2 {
+          width: 20%;
+        }
+        .th3 {
+          width: 16%;
+        }
+        .th4 {
+          width: 16%;
+        }
+        .th5 {
+          width: 13%;
+        }
+        .th6 {
+          width: 18%;
+        }
+        .th7 {
+          width: 2%;
+          &:hover {
+            background-color: silver;
+          }
+        }
+      }
+    }
+
+    tfoot {
+      width: 100%;
+      background-color: whitesmoke;
+      min-height: 43px;
+      position: sticky;
+      bottom: -1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      tr {
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        td {
+          word-break: normal;
+          white-space: nowrap;
+          font-size: 14px;
+          min-height: 25px;
+
+          max-height: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          background-color: white;
+          border-radius: 5px;
+          padding: 5px;
+          overflow-x: scroll;
+          overflow-y: hidden;
+          &::-webkit-scrollbar {
+            display: none;
+          }
+          span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+        .td1 {
+          width: 15%;
+        }
+        .td2 {
+          width: 20%;
+        }
+        .td3 {
+          width: 16%;
+        }
+        .td4 {
+          width: 16%;
+        }
+        .td5 {
+          width: 13%;
+        }
+        .td6 {
+          width: 18%;
+        }
+        .td7 {
+          width: 2%;
+        }
+      }
+    }
+  }
+}
